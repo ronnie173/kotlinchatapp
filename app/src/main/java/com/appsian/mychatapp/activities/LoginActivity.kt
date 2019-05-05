@@ -1,13 +1,13 @@
-package com.appsian.mychatapp
+package com.appsian.mychatapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
+import com.appsian.mychatapp.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import kotlinx.android.synthetic.main.activity_login.*
-import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.toast
 
 class LoginActivity : AppCompatActivity() {

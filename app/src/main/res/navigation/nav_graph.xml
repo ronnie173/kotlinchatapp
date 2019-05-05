@@ -5,9 +5,9 @@
             android:id="@+id/nav_graph"
             app:startDestination="@id/createAccountActivity">
 
-    <activity android:id="@+id/createAccountActivity" android:name="com.appsian.mychatapp.CreateAccountActivity"
+    <activity android:id="@+id/createAccountActivity" android:name="com.appsian.mychatapp.activities.CreateAccountActivity"
               android:label="activity_create_account" tools:layout="@layout/activity_create_account"/>
-    <activity android:id="@+id/loginActivity" android:name="com.appsian.mychatapp.LoginActivity"
+    <activity android:id="@+id/loginActivity" android:name="com.appsian.mychatapp.activities.LoginActivity"
               android:label="activity_login" tools:layout="@layout/activity_login"/>
 
 </navigation>
